@@ -1,0 +1,32 @@
+{
+  "name": "proof-of-existence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test:contracts": "truffle test",
+    "start": "cd app && npm run start",
+    "build": "cd app && npm run build",
+    "test": "cd app && npm run test",
+    "eject": "cd app && npm run eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balajipachai/proof-of-existence"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balajipachai/proof-of-existence/issues"
+  },
+  "homepage": "https://github.com/balajipachai/proof-of-existence#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.1.1"
+  }
+}

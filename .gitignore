@@ -1,0 +1,9 @@
+# Editor fiels
+.vscode
+.idea/
+
+# Dependencies
+node_modules
+app/node_modules
+package-lock.json
+app/src/contracts
